@@ -1,0 +1,22 @@
+<div>
+  <div class="">
+    <shoping-cart></shoping-cart>
+  </div>
+  <div class="row col-md-12" id="prodlist">
+    <div class="col-md-3" ng-repeat="prod in allProds">
+        <div class="card mb-4 box-shadow">
+          <img class="card-img-top" ng-src="{{prod.image}}">
+        <div class="card-body">
+          <p class="card-text">{{prod.name}}</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary">Add</button>
+              <button type="button" class="btn btn-sm btn-outline-secondary">Remove</button>
+            </div>
+            <small class="text-muted">{{prod.pack}}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

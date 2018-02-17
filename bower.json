@@ -1,0 +1,22 @@
+{
+  "name": "compapp",
+  "homepage": "https://github.com/gururajmca/compapp",
+  "authors": [
+    "gururajmca@gmail.com"
+  ],
+  "description": "sample app to demo the components",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.9",
+    "bootstrap": "^4.0.0",
+    "jQuery": "^3.3.1"
+  }
+}

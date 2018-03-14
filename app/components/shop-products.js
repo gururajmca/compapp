@@ -1,15 +1,10 @@
-myApp.component('shopProducts', {
-  templateUrl: './views/shop-products.html',
-  controller: myShopProducts
+myApp.directive('shopProducts', function() {
+  return {
+      templateUrl: './views/shop-products.html',
+      controller: myShopProducts
+  }
 });
 
-function myShopProducts($scope, ProductData) {
-  $scope.title = "Card Title";
-  ProductData.getAllProducts().then(function(res) {
-    $scope.allProds = res.data;
-  });
+function myShopProducts() {
 
-  $scope.addToCart = function(item) {
-    ProductData.addToCart(item);
-  }
 }

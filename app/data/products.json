@@ -7,7 +7,7 @@
         "price": 400,
         "inventory": 10,
         "currency": "INR",
-        "image": "http://dreamicus.com/data/apple/apple-04.jpg",
+        "image": "./images/apple.jpg",
         "url": "google.com",
         "added_qty": 1
     },
@@ -19,7 +19,7 @@
         "price": 100,
         "inventory": 10,
         "currency": "INR",
-        "image": "http://www.bananeramuchachitaus.com/images/slider/banana-3.jpg",
+        "image": "./images/banana.jpg",
         "url": "google.com",
         "added_qty": 1
     },
@@ -31,7 +31,7 @@
         "price": 210,
         "inventory": 10,
         "currency": "INR",
-        "image": "http://drtomobrien.ie/wp-content/uploads/2013/03/papaya2d.jpg",
+        "image": "./images/papaya.jpg",
         "url": "google.com",
         "added_qty": 1
     },
@@ -43,7 +43,7 @@
         "price": 500,
         "inventory": 10,
         "currency": "INR",
-        "image": "http://producemadesimple.ca/wp-content/uploads/2015/01/orange-web-1024x768.jpg",
+        "image": "./images/orange.jpg",
         "url": "google.com",
         "added_qty": 1
     },
@@ -55,7 +55,7 @@
         "price": 250,
         "inventory": 10,
         "currency": "INR",
-        "image": "http://healthyrise.com/wp-content/uploads/2016/06/Mango-8.jpg",
+        "image": "./images/mango.jpg",
         "url": "google.com",
         "added_qty": 1
     },
@@ -67,7 +67,7 @@
         "price": 60,
         "inventory": 10,
         "currency": "INR",
-        "image": "https://media.mercola.com/assets/images/foodfacts/watermelon-fb.jpg",
+        "image": "./images/watermelon.jpg",
         "url": "google.com",
         "added_qty": 1
     },
@@ -79,7 +79,7 @@
         "price": 40,
         "inventory": 10,
         "currency": "INR",
-        "image": "http://media.mercola.com/assets/images/foodfacts/pineapple-nutrition-facts.jpg",
+        "image": "./images/pineapple.jpg",
         "url": "google.com",
         "added_qty": 1
     }

@@ -4,3 +4,6 @@
 #shopingcart {
   margin-bottom: 50px;
 }
+#shopingcart ul li {
+  list-style: none;
+}

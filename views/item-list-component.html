@@ -1,0 +1,7 @@
+<h3></h3>
+<span ng-if="$ctrl.items.length == 0">No items available.</span>
+<ul class="items">
+  <li ng-repeat="item in $ctrl.items">
+    <item-component data-set="item"></item-component>
+  </li>
+</ul>
